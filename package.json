@@ -1,0 +1,29 @@
+{
+  "name": "raspiinfo",
+  "version": "1.0.0",
+  "description": "return raspberry pi info (serial number/cpu temperature/ip address)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohrot/raspiinfo.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "cpu",
+    "serial",
+    "number"
+  ],
+  "author": "ohrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohrot/raspiinfo/issues"
+  },
+  "homepage": "https://github.com/ohrot/raspiinfo#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
+  }
+}
