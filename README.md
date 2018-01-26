@@ -3,8 +3,11 @@ return raspberry pi info (serial number/cpu temp/ip address)
 
 ## API
 
-### <code>sn(callback)</code>
+### sn(callback)
+cpu serial number via /proc/cpuinfo 
 
-### <code>temp(callback)</code>
+### temp(callback)
+cpu temperature via /sys/class/thermal/thermal_zone0/temp
 
-### <code>ip(callback)</code>
+### ip(callback)
+external ip address via ipinfo.io/ip
