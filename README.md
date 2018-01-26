@@ -1,2 +1,2 @@
-# raspisn
-return raspberry pi serial number via /proc/cpuinfo
+# raspiinfo
+return raspberry pi info (serial number/cpu temp/ip address)
